@@ -1,0 +1,26 @@
+13:12:26 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 10 threads, with external links False
+15:25:31 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 10 threads, with external links False
+15:28:39 Tree building started on https://en.wikipedia.org/wiki/Main_Page to 1.txt, with external links False
+15:28:43 Exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebPageParser.TreeBuilder.Build(String rootUrl, String filePath, Boolean useExternal) in C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser\TreeBuilder.cs:line 31
+15:28:43 Tree building finished on https://en.wikipedia.org/wiki/Main_Page to 1.txt, with external links False
+15:30:59 Tree building started on https://en.wikipedia.org/wiki/Main_Page to 1.txt, with external links False
+15:34:34 Tree building finished on https://en.wikipedia.org/wiki/Main_Page to 1.txt, with external links False
+15:51:07 Tree building started on https://en.wikipedia.org/wiki/Main_Page to 1.txt, with external links False
+15:53:36 Tree building finished on https://en.wikipedia.org/wiki/Main_Page to 1.txt, with external links False
+15:53:55 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 10 threads, with external links False
+16:16:25 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 1 threads, with external links False
+16:17:58 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 10 threads, with external links False
+16:18:58 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 10 threads, with external links False
+16:22:37 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 10 threads, with external links False
+16:29:38 Parsing started on https://en.wikipedia.org/wiki/Main_Page with depth 3, 10 threads, with external links False
+16:37:02 Exception System.Net.WebException: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at WebPageParser.Downloader.DownloadHtmlString(String soureUrl) in C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser\Downloader.cs:line 20
+16:37:38 Exception System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at WebPageParser.Downloader.DownloadHtmlString(String soureUrl) in C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser\Downloader.cs:line 20

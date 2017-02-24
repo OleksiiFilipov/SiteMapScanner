@@ -1,0 +1,16 @@
+18:30:44 Parsing started on https://developer.microsoft.com with depth 3, 10 threads, with external links False
+18:30:48 Exception System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at WebPageParser.Downloader.DownloadHtmlString(String soureUrl) in C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser\Downloader.cs:line 20
+18:30:49 Exception System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at WebPageParser.Downloader.DownloadHtmlString(String soureUrl) in C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser\Downloader.cs:line 20
+18:31:10 Parsing finished on https://developer.microsoft.com with depth 3, 10 threads, with external links False
+18:31:12 Parsing started on https://developer.microsoft.com with depth 2, 10 threads, with external links False
+18:31:18 Parsing finished on https://developer.microsoft.com with depth 2, 10 threads, with external links False
+18:31:20 Tree building started on https://developer.microsoft.com to 1.txt, with external links False
+18:31:20 Tree building finished on https://developer.microsoft.com to 1.txt, with external links False

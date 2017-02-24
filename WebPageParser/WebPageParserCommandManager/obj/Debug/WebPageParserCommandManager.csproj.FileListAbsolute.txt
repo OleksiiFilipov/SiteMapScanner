@@ -1,0 +1,13 @@
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\obj\Debug\WebPageParserCommandManager.csprojResolveAssemblyReference.cache
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\obj\Debug\WebPageParserCommandManager.Properties.Resources.resources
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\obj\Debug\WebPageParserCommandManager.csproj.GenerateResource.Cache
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\bin\Debug\WebPageParserCommandManager.exe.config
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\bin\Debug\WebPageParserCommandManager.exe
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\bin\Debug\WebPageParserCommandManager.pdb
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\bin\Debug\EntityFramework.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\bin\Debug\EntityFramework.xml
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\obj\Debug\WebPageParserCommandManager.exe
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\obj\Debug\WebPageParserCommandManager.pdb
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParserCommandManager\obj\Debug\WebPageParserCommandManager.MainForm.resources

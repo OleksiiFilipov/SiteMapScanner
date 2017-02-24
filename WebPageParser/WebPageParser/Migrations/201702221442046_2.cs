@@ -1,0 +1,29 @@
+namespace WebPageParser.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class _2 : DbMigration
+    {
+        public override void Up()
+        {
+            CreateTable(
+                "dbo.MultiThreadingQueueParams",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        nodId = c.Int(nullable: false),
+                        nodeUrl = c.String(),
+                        depth = c.Int(nullable: false),
+                        withExternalLinks = c.Boolean(nullable: false),
+                    })
+                .PrimaryKey(t => t.Id);
+            
+        }
+        
+        public override void Down()
+        {
+            DropTable("dbo.MultiThreadingQueueParams");
+        }
+    }
+}

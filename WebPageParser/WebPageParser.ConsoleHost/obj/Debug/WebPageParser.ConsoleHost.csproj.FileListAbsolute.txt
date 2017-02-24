@@ -1,0 +1,38 @@
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.ConsoleHost.exe.config
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.ConsoleHost.exe
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.ConsoleHost.pdb
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.dll
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\HtmlAgilityPack.dll
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.dll
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.pdb
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.xml
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\HtmlAgilityPack.pdb
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\HtmlAgilityPack.xml
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.csprojResolveAssemblyReference.cache
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.exe
+c:\users\afilipov\documents\visual studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.pdb
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.ConsoleHost.exe.config
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.exe
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.pdb
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.ConsoleHost.exe
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.ConsoleHost.pdb
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\HtmlAgilityPack.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.pdb
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.xml
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\bin\Debug\HtmlAgilityPack.xml
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParserBackUp\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.csprojResolveAssemblyReference.cache
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\StructureMap.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\NLog.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\NLog.xml
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.Extended.dll
+C:\Users\afilipov\Documents\Visual Studio 2015\Projects\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\EntityFramework.Extended.xml
+C:\Users\afilipov\Source\Repos\SiteMapScanner2\WebPageParser\WebPageParser.ConsoleHost\bin\Debug\WebPageParser.ConsoleHost.exe.config
+C:\Users\afilipov\Source\Repos\SiteMapScanner2\WebPageParser\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.exe
+C:\Users\afilipov\Source\Repos\SiteMapScanner2\WebPageParser\WebPageParser.ConsoleHost\obj\Debug\WebPageParser.ConsoleHost.pdb
