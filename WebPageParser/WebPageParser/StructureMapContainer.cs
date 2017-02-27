@@ -21,7 +21,7 @@ namespace WebPageParser
             _.For<IDownloader>().Use<Downloader>();
             _.For<IContentParser>().Use<ContentParser>();
             _.For<IPageParserEFContext>().Use<PageParserEFContext>();
-            _.For<IMultiThreadingQueue>().Use<LocaMultiThreadingQueue>();
+            _.For<IMultiThreadingQueue>().Use<HybridMultiThreadingQueue>();
             _.For<IObjectFactory>().Use<ObjectFactory>();
             _.For<IFileWriter>().Use<FileWriter>();
         });

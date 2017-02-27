@@ -15,8 +15,12 @@ namespace WebPageParser
     {
         private ConcurrentQueue<MultiThreadingQueueParam> queue = new ConcurrentQueue<MultiThreadingQueueParam>();
         private ConcurrentBag<MultiThreadingQueueParam> bag = new ConcurrentBag<MultiThreadingQueueParam>();
-        public HybridMultiThreadingQueue()
+        private IBulkSqlRepository bulkRepository;
+        private bool IsDbQueueEmpty = true;
+        public HybridMultiThreadingQueue(IBulkSqlRepository bulkRepo)
         {
+            this.bulkRepository = bulkRepo;
+
             using (var context = new PageParserEFContext())
             {
                 context.MtParams.Delete();
@@ -36,7 +40,7 @@ namespace WebPageParser
 
         public void Enqueue(MultiThreadingQueueParam param)
         {
-            if (queue.Count < 100)
+            if (queue.Count < 200 && IsDbQueueEmpty && bag.Count == 0)
             {
                 queue.Enqueue(param);
             }
@@ -59,6 +63,15 @@ namespace WebPageParser
                 using (var context = new PageParserEFContext())
                 {
                     var tempList = context.MtParams.OrderBy(mp => mp.Id).Take(200);
+                    if (tempList?.Count() == 200)
+                    {
+                        IsDbQueueEmpty = false;
+                    }
+                    else if (bag.Count == 0)
+                    {
+                        IsDbQueueEmpty = true;
+                    }
+
                     if (tempList?.Count() > 0)
                     {
                         foreach (var item in tempList)
@@ -73,17 +86,13 @@ namespace WebPageParser
 
             if (bag.Count > 0)
             {
-                    List<MultiThreadingQueueParam> tempList = new List<MultiThreadingQueueParam>();
-                    lock (bag)
-                    {
-                        tempList.AddRange(bag);
-                        bag = new ConcurrentBag<MultiThreadingQueueParam>();
-                    }
-                using (var context = new PageParserEFContext())
+                List<MultiThreadingQueueParam> tempList = new List<MultiThreadingQueueParam>();
+                lock (bag)
                 {
-                    context.MtParams.AddRange(tempList);
-                    context.SaveChanges();
+                    tempList.AddRange(bag);
+                    bag = new ConcurrentBag<MultiThreadingQueueParam>();
                 }
+                bulkRepository.QueueParamAddRange(tempList);
             }
 
             ManageQueue();
