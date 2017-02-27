@@ -24,6 +24,8 @@ namespace WebPageParser
             _.For<IMultiThreadingQueue>().Use<HybridMultiThreadingQueue>();
             _.For<IObjectFactory>().Use<ObjectFactory>();
             _.For<IFileWriter>().Use<FileWriter>();
+            _.For<IBulkSqlRepository>().Use<BulkSqlRepository>();
+            _.For<IWppBulkSql>().Use<WppBulkSql>();
         });
     }
 }
